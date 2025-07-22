@@ -55,7 +55,9 @@
     <Compile Include="7.Dictionary.cs" />
     <Compile Include="6.List_Advanced.cs" />
     <Compile Include="5.List.cs" />
+    <Compile Include="8.HashTable_Advanced.cs" />
     <Compile Include="9.Tuple.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

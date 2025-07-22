@@ -46,8 +46,6 @@ namespace HashSetNamespace
             emails.Remove("madan1@gmail.com");
             emails.Add("ram@gmail.com");
 
-
-
             //Console.WriteLine("exit");
 
 
