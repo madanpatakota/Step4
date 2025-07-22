@@ -14,8 +14,7 @@ namespace ListNamespace
         static void Main()
         {
             List<int> numbersList = new List<int>();
-
-
+            
             //1.Type-Safety
             numbersList.Add(10);
             numbersList.Add(20);

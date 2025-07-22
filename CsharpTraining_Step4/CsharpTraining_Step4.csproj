@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>DictionaryNamespace.ExampleDict</StartupObject>
+    <StartupObject>HashSetNamespace.ExampleHashSet</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,15 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.Array.cs" />
+    <Compile Include="10.HashSet.cs" />
     <Compile Include="2.Array_Advanced.cs" />
     <Compile Include="3.ArrayList.cs" />
     <Compile Include="4.ArrayList_Advanced.cs" />
+    <Compile Include="7.Dictionary_Advanced.cs" />
     <Compile Include="7.Dictionary.cs" />
     <Compile Include="6.List_Advanced.cs" />
     <Compile Include="5.List.cs" />
+    <Compile Include="9.Tuple.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="8.HashTable.cs" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
